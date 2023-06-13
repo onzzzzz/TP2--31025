@@ -10,7 +10,7 @@ public class Jelly : MonoBehaviour
     
     void Update()
     {
-        transform.localRotation = Quaternion.Euler(50f, Time.time * 100f, 20);
+        transform.localRotation = Quaternion.Euler(50f, Time.time * 100f, 20f);
     }
 
     void OnTriggerEnter(Collider other)
